@@ -1,0 +1,187 @@
+# Generic
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.pid
+*.seed
+*.tmp
+*.swp
+*.swo
+
+# Sensitive / environment
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+*.pem
+secrets.yml
+credentials.yml
+
+# OS
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+.vscode-test/
+.history/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnp.*.cjs
+.pnp.js
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+out/
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+.eggs/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+pytest_cache/
+migrations/__pycache__/
+celerybeat-schedule
+instance/
+.webassets-cache
+
+# Java
+target/
+bin/
+build/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+*.log
+
+# Maven / Gradle
+.mvn/
+.settings/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+build/
+.gradle/
+.gradle-cache/
+
+# Go
+bin/
+pkg/
+vendor/
+
+# Rust
+target/
+**/*.rs.bk
+
+# C/C++
+*.o
+*.obj
+*.out
+*.exe
+*.elf
+*.so
+*.dylib
+*.a
+build/
+
+# .NET
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+*.rsuser
+*.suo
+*.user
+
+# Containers / virtualization
+*.env.*.local
+.Dockerfile.swp
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+.kube/
+
+# Ansible
+.vault_pass.txt
+
+# CI / build artifacts
+coverage/
+reports/
+artifacts/
+*.war
+*.ear
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Misc
+uploads/
+tmp/
+.cache/
+.idea_modules/
+*.localhistory/
+
+# Keep package lock files and CI config files by default (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# Pipfile.lock
