@@ -70,6 +70,7 @@ env/
 pip-wheel-metadata/
 build/
 dist/
+runs/
 *.egg-info/
 .eggs/
 .coverage
